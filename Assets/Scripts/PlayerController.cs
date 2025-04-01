@@ -10,6 +10,7 @@ namespace NZ
     {
 
         public Spawner spawner;
+        public CloudController cloudController;
 
         private void Update()
         {
@@ -21,6 +22,7 @@ namespace NZ
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 Debug.Log("Z key down");
+                cloudController.Action();
             }
             if (Input.GetKeyDown(KeyCode.Space))
             {

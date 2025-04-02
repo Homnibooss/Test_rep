@@ -56,19 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Refresh.cs" />
-    <Compile Include="Assets\Scripts\CloudController.cs" />
     <Compile Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\3.4_Scripts\Cloud.cs" />
     <Compile Include="Assets\3.4_Scripts\CloudController.cs" />
     <Compile Include="Assets\3.4_Scripts\Spawner.cs" />
     <Compile Include="Assets\3.1_Generic.cs" />
-    <Compile Include="Assets\Scripts\Cloud.cs" />
     <Compile Include="Assets\3.4_Scripts\PlayerController.cs" />
     <Compile Include="Assets\3.4_Scripts\Refresh.cs" />
-    <Compile Include="Assets\Scripts\FreeCamera.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\LevelController.cs" />
+    <Compile Include="Assets\Scripts\SpawnerStone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Shaders\Cloud.shader" />
